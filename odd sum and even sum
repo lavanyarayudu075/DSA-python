@@ -1,0 +1,10 @@
+num = int(input())
+l = list(map(int,input().split()))
+odd = 0
+even = 0
+for i in range(0,num):
+    if(l[i]%2==0):
+        even+=l[i]
+    else:
+        odd+=l[i]
+print(odd,even,end=" ")
